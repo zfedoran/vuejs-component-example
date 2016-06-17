@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.25/vue.min.js"></script>
+    
+    <link rel="import" href="/components/TodoList.html">
+    
+  </head>
+
+  <body>
+    
+    <div id="app">
+      <p>Vue.js components without build tools</p>
+      
+      <todo-list></todo-list>
+    </div>
+
+
+    <script type="text/javascript">
+      var vm = new Vue({ el: '#app' });
+    </script>
+  </body>
+
+</html>
